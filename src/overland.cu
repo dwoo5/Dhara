@@ -115,7 +115,7 @@ __global__ void SetUpLinearSystemsOverland(double *a2d, double *rhs2d, double *w
         ///////////////////////////////////////////////////////
         // We need to modify matrix A & rhs2d for BCs        //
         ///////////////////////////////////////////////////////
-        //test
+        
         // Inner bound (i, j > 0 and i or j equal 1)
         // if (j == 1)
         // {
